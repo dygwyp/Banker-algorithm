@@ -25,8 +25,8 @@ Banker algorithm by c++
 1. 选择IDE，方法同上
 2. sublime text + 控制台。
 下载项目后，前往main.cpp文件所在路径，在控制台输入如下2个命令：
-clang++ -o main main.cpp
-./main
+`clang++ -o main main.cpp`
+`./main`
 
 ## linux环境
 1. 方法同上。控制台运行命令可能稍有不同，自行查找。
