@@ -56,7 +56,7 @@ int main()
 //读取文件数据，打印到控制台，并将数据存入到相应矩阵中
 void Read_file(){
         //读取完整文件并打印
-        ifstream inFile1("../data/Alldata.txt",ios::in);  //创建文件流对象
+        ifstream inFile1("Alldata.txt",ios::in);  //创建文件流对象
         if(!inFile1)      //判断对象inFile打开文件成功与否
               cerr<<"File open error."<<endl;  //使用错误流对象输出错误信息
         else {
@@ -67,7 +67,7 @@ void Read_file(){
                 inFile1.close();
         }
         //读取只有数字的文件并存入矩阵中
-        ifstream inFile2("../data/data.txt",ios::in);
+        ifstream inFile2("data.txt",ios::in);
         if(!inFile2)
               cerr<<"File open error."<<endl;
         else{
