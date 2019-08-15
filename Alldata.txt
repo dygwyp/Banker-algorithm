@@ -1,0 +1,8 @@
+资源情况	Max	Allocation	Need	Available
+\		A B C	A B C		A B C	A B C
+进程
+P0		7 5 3	0 1 0		7 4 3	3 3 2
+P1		3 2 2	2 0 0		1 2 2
+P2		9 0 2	3 0 2		6 0 0
+P3		2 2 2	2 1 1		0 1 1
+P4		4 3 3	0 0 2		4 3 1
